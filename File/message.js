@@ -17,10 +17,10 @@ function botuiinit() {
                 botui.action.button({
                     delay: 1600,
                     action: [{
-                        text: "然后呢？",
+                        text: "然后呢？ 😃",
                         value: "sure"
                     }, {
-                        text: "少废话！",
+                        text: "少废话！ 🙄",
                         value: "skip"
                     }]
                 }).then(function (a) {
@@ -54,12 +54,12 @@ function botuiinit() {
             botui.message.add(
                 {
                     delay: 1400,
-                    content: "从某种角度上来看，也算是程序员吧，比较偶尔也写写代码"
+                    content: "从某种角度上来看，也算是程序员吧，毕竟偶尔也写写代码"
                 }
             ).then(function () {
                 botui.message.add(
                     {
-                        delay: 2400,
+                        delay: 2000,
                         content: "这几年写过C C++  Python HTML JavaScript CSS 尽管出了C++其它只是碰一碰……"
                     }).then(function () {
                         botui.message.add(
@@ -70,7 +70,7 @@ function botuiinit() {
                         ).then(function () {
                             botui.message.add(
                                 {
-                                    delay: 1400,
+                                    delay: 1800,
                                     content: '（怎么可能是个二刺螈）'
                                 }
                             ).then(
